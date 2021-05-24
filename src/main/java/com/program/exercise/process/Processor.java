@@ -1,4 +1,4 @@
-package com.program.excercise.process;
+package com.program.exercise.process;
 
 import com.program.exercise.constants.Constants;
 

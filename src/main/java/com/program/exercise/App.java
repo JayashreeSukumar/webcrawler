@@ -9,15 +9,16 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.program.excercise.process.Processor;
+
+import com.program.exercise.process.Processor;
 
 /**
  * Jayashree
  *
  */
 public class App {
-	private static int CORE_THREAD_COUNT = 10;
-	private static int MAX_THREAD_COUNT = 10;
+	private static int CORE_THREAD_COUNT = 3;
+	private static int MAX_THREAD_COUNT = 5;
 
 	private static final Logger log = LoggerFactory.getLogger(App.class);
 
@@ -60,7 +61,7 @@ public class App {
 			input = scanner.nextLine();
 		}
 		System.out.println("Active Processes" + executor.getActiveCount());
-		executor.shutdown();
+		executor.shutdown();		
 	}
 
 }

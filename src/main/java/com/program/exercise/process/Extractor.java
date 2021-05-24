@@ -1,4 +1,4 @@
-package com.program.excercise.process;
+package com.program.exercise.process;
 
 import java.io.FileWriter;
 import java.io.IOException;

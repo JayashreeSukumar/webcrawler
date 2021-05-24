@@ -16,4 +16,4 @@ org.jsoup 1.9.2
 To run this project, execute below commands:
 $cd project root folder
 $mvn compile
-$mvn exec:java -Dexec.mainClass=com.program.exercise.App -DLOG_PATH=value
+$mvn exec:java -Dexec.mainClass=com.program.exercise.App -DLOG_PATH=value -Dexec.cleanupDaemonThreads=false
